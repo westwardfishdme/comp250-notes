@@ -63,7 +63,7 @@ I have 3 rules when it comes to using AI:
 > The gods gave you two hands, and you use them both to slam nonsense on your keyboard. I can respect that.
 
 This is a parodied quote from one of my favorite games: [Skyrim](https://en.uesp.net/wiki/Skyrim:Guard_Dialogue#Reactions_to_Player.27s_Skill_Level)
-Although Dr.Thiruvathukal demonstrated some really cool uses of AI; There are numerous reasons as to why I myself refuse to use AI in my coursework
+Although Dr. Thiruvathukal demonstrated some really cool uses of AI; There are numerous reasons as to why I myself refuse to use AI in my coursework
 and in my personal works. One of them being that **I don't like leaving things up to chance**. If I know a solution, it is better I write it out. 
 If I don't know a solution, then it is up to me to learn how to piece things together. 
 
@@ -87,3 +87,6 @@ it for work purposes (i.e. writing a program, schoolwork, etc.)
 
 I will admit, I am guilty of using the AI search results occasionally-- but I do opt for actually doing research into something myself because more often than not,
 I find more useful information from the sources than I do from a synthesized output.
+
+# Sources
+MIT Sloan, Teaching & Learning Technologies. MIT Sloan’s Rama Ramakrishnan Shares Primer on ChatGPT. 2023. 18:51. https://www.youtube.com/watch?v=4fThhooNvA0.
