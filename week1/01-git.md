@@ -1,6 +1,5 @@
 # Git
 **Date:** 09-01-2026
-**Keywords:** Git, Version Control, Tools
 
 **Keywords:** Git, Version Control, Tools
 
