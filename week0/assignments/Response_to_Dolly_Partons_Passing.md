@@ -1,4 +1,6 @@
-# COMP 250 - Jonathan Villanueva
+# Paper on a Single Quote
+**Date:** 08-26-2026
+## My quote:
 > "It is but human nature to take its most advanced creation and turn it into a machination for war, death, and money."
 
 This isn't a quotation from somebody else, it's a quote by me. I wrote it one night upon reflecting upon my future as
