@@ -1,5 +1,6 @@
 # Zettelkasten.md
 **Date:** 09-03-2026
+
 **Keywords**: Notetaking, Strategies, Tools
 
 ## Task
