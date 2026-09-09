@@ -1,4 +1,7 @@
 # Demos
+**Date:** 2026-09-08
+
+**Keywords**: Demos, Public Speaking, Synthesizing Information.
 
 ## What to do
 - simplify the complexities so that they are understandable.

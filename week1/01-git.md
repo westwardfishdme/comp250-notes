@@ -1,5 +1,6 @@
 # Git
 **Date:** 09-01-2026
+**Keywords:** Git, Version Control, Tools
 
 ## What is git? 
 Git is a version control system built by Linus Torvalds. It
@@ -14,4 +15,3 @@ shared between other users.
 We are using git in this course to essentially a collaborative note
 system on GitHub (which is unrelated to the git project). This is also where
 all of our assignments will be posted.
-
