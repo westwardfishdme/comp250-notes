@@ -128,6 +128,5 @@ Should they be reduced to such a form of existence, we are forfeiting our freedo
 - Illinois Department of Labor. “Minimum Wage Law.” https://labor.illinois.gov/laws-rules/fls/minimum-wage-law.html.
 - Levy, Steven. “Zillow Has Gone Wild—for AI.” Tags. Wired, February 13, 2026. https://www.wired.com/story/backchannel-how-artificial-intelligence-changed-zillow/.
 - Varoufakis, Yanis. Technofeudalism: What Killed Capitalism. The Bodley Head, 2023. Book.
-- Varoufakis, Yanis. Technofeudalism: What Killed Capitalism. The Bodley Head, 2023.
 - Wilson, Jason. “He’s Anti-Democracy and pro-Trump: The Obscure ‘Dark Enlightenment’ Blogger Influencing the next US Administration.” US News. The Guardian, December 21, 2024. https://www.theguardian.com/us-news/2024/dec/21/curtis-yarvin-trump.
 - Zillow. “How Zillow’s New AI Mode Works throughout the Real Estate Journey.” Zillow, March 25, 2026. https://www.zillow.com/news/how-zillows-new-ai-mode-works-throughout-the-real-estate-journey/.
