@@ -28,6 +28,10 @@ using the site Dr.Thiruvathukal made-- we looked at the sites:
 - How would someone find my tool useful? 
 - What makes my tool a choice for somebody who might be able to use it?
 
-## Problem Solving
 
+<!--
+TODO:
+Write these sections at a later date.
+-->
+## Problem Solving
 ## Marketing Usage
