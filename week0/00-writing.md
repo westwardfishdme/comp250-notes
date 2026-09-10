@@ -28,9 +28,9 @@ products to market their products better; appealing to the consumerist
 economy; Overworked workers are using it to reduce their workload which
 further decreases the overall quality of their work. 
 
-Meanwhile, the technofeudalist monopolies of Silicon Valley are using the 
+Meanwhile, [the technofeudalist monopolies of Silicon Valley are using the 
 inputs given by the small business owner class to further their goals in maintaining
-a profit margin by trading the data or harvesting it to create a feedback loop to train their models, 
+a profit margin by trading the data or harvesting it to create a feedback loop to train their models](https://eclass.uoa.gr/modules/document/file.php/ECON969/Technofeudalism%20-%20What%20killed%20capitalism.pdf), 
 and the common folk are oblivious to it.
 
 ## Quotes that stood out to me :
