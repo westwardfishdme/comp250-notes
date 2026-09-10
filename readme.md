@@ -30,7 +30,10 @@ relativity to the previous line.
 
 ## Tools used
 - [Zotero](https://github.com/zotero/zotero)
-This will be hosted on my home network and still accessible through school from my VPN.
+~This will be hosted on my home network and still accessible through school from my VPN.~ 
+
+(Turns out I can't self-host this one)
+
 - [pandoc](https://github.com/jgm/pandoc)
 - [neovim](https://github.com/neovim/neovim)
 - `git` of course.
