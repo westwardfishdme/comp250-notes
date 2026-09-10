@@ -99,7 +99,7 @@ damages caused by global warming. Data must be stored somewhere, and a lot of da
 responses. 
 
 Beyond that, the goals of these AI companies are being used to bring about some dystopian vision of the future brought about by the Tech Elites of Silicon Valley.
-It is almost well-known fact at this point that the [Vice-President is a huge fan of one Curtis Yarvin](https://www.theguardian.com/us-news/2024/dec/21/curtis-yarvin-trump.); a far-right tech blogger in the US who advocates for a "National CEO"
+It is almost well-known fact at this point that the [Vice-President is a huge fan of one Curtis Yarvin](https://www.theguardian.com/us-news/2024/dec/21/curtis-yarvin-trump); a far-right tech blogger in the US who advocates for a "National CEO"
 or "mixed-monarchy" where in the United States runs itself as a business rather than as a nation. What does that look like?:
 
 - An authoritarian regime that prioritizes the building of wealth (for the ultra-wealthy).
