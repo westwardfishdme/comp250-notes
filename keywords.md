@@ -4,7 +4,6 @@
 |---------------------------|-------------|
 |AI| 2|
 |Assignment| 2|
-|Bibliography| 1|
 |Demos| 1|
 |Ethics| 1|
 |Formatting| 1|
@@ -24,7 +23,7 @@
 |Synthesizing Information| 1|
 |Technofeudalism| 2|
 |Technology| 1|
-|Tools| 4|
+|Tools| 5|
 |Version Control| 1|
 |Writing| 3|
 |Zotero| 1|
