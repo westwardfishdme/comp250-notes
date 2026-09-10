@@ -22,4 +22,4 @@ Like so [@video].
 > citations added manually.
 
 LaTeX Project. LaTeX - A Document Preparation System. https://www.latex-project.org/.
-Nicholas Cifuentes-Goodbody. What's a Bib File? 2017. 06:56. https://www.youtube.com/watch?v=JF9bvYmcdmY.
+Nicholas Cifuentes-Goodbody. What's a Bib File? April 2017. 06:56. https://www.youtube.com/watch?v=JF9bvYmcdmY.
