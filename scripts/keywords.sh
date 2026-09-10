@@ -8,7 +8,7 @@ get_keywords(){
 
 SAVEIFS=$IFS
 IFS=$'\n'
-kw=$(get_keywords|uniq -u)
+kw=$(get_keywords|uniq)
 keywords=($kw)
 
 for i in $kw; do
