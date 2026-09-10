@@ -1,7 +1,8 @@
 # Why won't you use AI?
 **Date:** 09-09-2026
 
-**Keywords:** Artificial Intelligence, Philosophy, Ethics, Writing
+**Keywords:** 
+AI, Philosophy, Ethics, Writing
 
 
 ## Tokenization

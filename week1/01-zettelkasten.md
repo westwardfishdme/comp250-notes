@@ -1,7 +1,8 @@
 # Zettelkasten.md
 **Date:** 09-03-2026
 
-**Keywords**: Notetaking, Strategies, Tools
+**Keywords:** 
+Notetaking, Strategies, Tools
 
 ## Task
 Ask a chatbot: "What are the advantages of the Zettelkasten method of note-taking for

@@ -1,7 +1,8 @@
 # Tools and personal use
 **Date:** 09-08-2026
 
-**Keywords:** Tools, Git, Notetaking, Markdown
+**Keywords:** 
+Tools, Git, Notetaking, Markdown
 
 ## What are we using these tools for?
 The tools that we are using for the course extend themselves beyond the actual coursework.

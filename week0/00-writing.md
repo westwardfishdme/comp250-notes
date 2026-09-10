@@ -1,7 +1,8 @@
 # What is happening with writing?
 **Date:** August 27th, 2026
 
-**Keywords**: AI, Politics, Technofeudalism
+**Keywords:** 
+AI, Politics, Technofeudalism
 
 ## Question: Is it the end of the essay?
 Short answer: "no\".

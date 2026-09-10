@@ -1,7 +1,8 @@
 # Git
 **Date:** 09-01-2026
 
-**Keywords:** Git, Version Control, Tools
+**Keywords:** 
+Git, Version Control, Tools
 
 ## What is git? 
 Git is a version control system built by Linus Torvalds. It

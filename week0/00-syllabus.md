@@ -1,7 +1,8 @@
 # Syllabus
 **Date:** 08-25-2026 
 
-**Keywords**: Syllabus, Tools, Objectives, Goals
+**Keywords:**
+Syllabus, Tools, Objectives, Goals
 
 This section of the course is taught by George Thiruvathukal.
 
