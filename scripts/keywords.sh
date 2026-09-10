@@ -7,11 +7,13 @@ get_keywords(){
 }
 
 SAVEIFS=$IFS
-IFS='\n'
-kw=$(get_keywords|uniq)
+IFS=$'\n'
+kw=$(get_keywords|uniq -u)
 keywords=($kw)
-IFS=$SAVEIFS
+
+get_keywords 
 
 for i in $kw; do
   echo "|$i| $(get_keywords|grep $i| wc -l)|"
 done
+IFS=$SAVEIFS
