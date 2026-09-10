@@ -1,7 +1,7 @@
 # Paper on a Single Quote
 **Date:** 08-26-2026
 **Keywords:**
-Technology, Technofeudalism, Politics
+Technology, Technofeudalism, Politics, Assignment
 
 ## My quote:
 > "It is but human nature to take its most advanced creation and turn it into a machination for war, death, and money."
