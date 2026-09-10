@@ -33,7 +33,7 @@ inputs given by the small business owner class to further their goals in maintai
 a profit margin by trading the data or harvesting it to create a feedback loop to train their models](https://eclass.uoa.gr/modules/document/file.php/ECON969/Technofeudalism%20-%20What%20killed%20capitalism.pdf), 
 and the common folk are oblivious to it.
 
-## Quotes that stood out to me :
+## Quotes that stood out to me (from class):
 
 1.  >"When the hammer breaks, we are now aware of the hammer's
     hammeryness."
