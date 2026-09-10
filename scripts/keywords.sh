@@ -13,5 +13,5 @@ keywords=($kw)
 IFS=$SAVEIFS
 
 for i in $kw; do
-  echo "$i: $(get_keywords|grep $i| wc -l)"
+  echo "|$i| $(get_keywords|grep $i| wc -l)|"
 done
