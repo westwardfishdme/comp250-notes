@@ -11,7 +11,8 @@ Notes are not named by days, but rather overarching topics. Each note contains t
 # Title/Topic
 
 **Date:** mm-dd-yyyy
-**Keywords:** Foo, Bar, Biz, Baz
+**Keywords:** 
+Foo, Bar, Biz, Baz
 
 ## Subtitle/subtopic
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
