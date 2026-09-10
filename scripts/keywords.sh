@@ -11,8 +11,6 @@ IFS=$'\n'
 kw=$(get_keywords|uniq -u)
 keywords=($kw)
 
-get_keywords 
-
 for i in $kw; do
   echo "|$i| $(get_keywords|grep $i| wc -l)|"
 done
