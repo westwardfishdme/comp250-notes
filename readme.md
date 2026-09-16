@@ -34,10 +34,6 @@ relativity to the previous line.
 
 ## Tools used
 - [Zotero](https://github.com/zotero/zotero)
-~This will be hosted on my home network and still accessible through school from my VPN.~ 
-
-(Turns out I can't self-host this one)
-
 - [pandoc](https://github.com/jgm/pandoc)
 - [neovim](https://github.com/neovim/neovim)
 - `git` of course.
@@ -66,6 +62,18 @@ Below is a few examples of how to use my custom tools:
 # create new note
 note new --keywords "foo, bar, biz, baz" --title "my new note" new_notes.md
 ```
+If you are on Linux/MacOS; you can use your `env` to set an editor by defining: `$EDITOR`
+and edit files created with:
+
+```sh
+note --edit new --keywords "foo, bar, biz, baz" --title "my new note" new_notes.md
+```
+By default, if you don't have `$EDITOR` defined, the program will try to use `nano` or `vim`;
+if it can't resolve either of these, it will exit with an error (but the file will still be written!).
+
+On Windows, I didn't write much support for it unfortunately-- so it will just open `notepad.exe`; (which I haven't tested myself yet...; apologies)
+> although you may freely choose to change it to something else yourself! The code is Free and Open Source!
+
 ```sh
 # from the project root directory...
 ./scripts/keywords.sh >> ./keywords.md
