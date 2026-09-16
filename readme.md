@@ -3,10 +3,12 @@ This repository is the collection of notes and assignments for COMP250
 (*Research Writing: Open Source Tools and Techniques*)
 All notes are written in markdown, and will be written to be best fit for GitHub's Markdown parser and formatter.
 
+
 ## Navigation and Formatting
 The directory is broken up by weeks; starting at enum 0, and proceeds sequentially all the way up to the end of the semester.
 Notes are not named by days, but rather overarching topics. Each note contains the following format:
 
+#### Example
 ```md
 # Title/Topic
 
@@ -38,7 +40,13 @@ relativity to the previous line.
 - [neovim](https://github.com/neovim/neovim)
 - `git` of course.
 
-Any scripts that I may use to complete assignments will also be included here under [./scripts](./scripts).
+### Custom tooling
+Any programs, or scripts that I may use to complete assignments will also be included here under [./scripts](./scripts).
+Below is a following list of tools that I have created for this course:
+
+-`notes`: CLI-tool written in Rust that currently only creates notes with the format I have described in the [example markdown](#Example)
+-`keyword.sh`: Just a quick shell-script that counts keywords with grep/regex and prints them in an markdown table format. Planned to be merged
+into notes.
 
 ## Keywords
 All keywords and their occurrences can be found in [keywords.md](./keywords.md)
