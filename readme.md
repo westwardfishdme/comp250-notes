@@ -48,8 +48,15 @@ Below is a following list of tools that I have created for this course:
 -`keyword.sh`: Just a quick shell-script that counts keywords with grep/regex and prints them in an markdown table format. Planned to be merged
 into notes.
 
+
 ## Keywords
 All keywords and their occurrences can be found in [keywords.md](./keywords.md)
+
+## Licensing
+**All software published are licensed under the GnuPublicLicense v3.0**; all text and published content is licensed by the CC-BY license.
+Please see both licenses linked below:
+- [GPL-v3](./LICENSE)
+- [CC-BY](./LICENSE-CC-BY)
 
 *This directory has now been renamed to comp250-notes to better suit naming conventions of the git
 repositories as requested by the professors of the course.*
