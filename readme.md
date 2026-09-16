@@ -125,11 +125,11 @@ Contributions include, but are not limited to:
 - Bug Disclosures
 - Feature Implementations
 
-If you do decide to fork this repository; You must license the code under the GPL-3.0.
+If you do decide to fork this repository; You must license the code under the GPL-3.0 and any other compatible licenses.
 
 ## Corrections
 You may submit any corrections to the [Issues Tab](https://github.com/westwardfishdme/comp250-notes/issues)
-You use the pinned example provided as a template if you need.
+You may use the pinned example provided as a template if you need.
 
 ## LLM/AI policy
 No LLM's/AI may be used in any contributions; whether that be for code or text corrections.
