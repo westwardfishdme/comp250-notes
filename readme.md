@@ -4,8 +4,20 @@ This repository is the collection of notes and assignments for COMP250
 All notes are written in markdown, and will be written to be best fit for GitHub's Markdown parser and formatter.
 
 ## Template
-As a part of this repository, you may choose to create a template of your own using the same tools I used under the branch/template.
-(not yet created)
+As a part of this repository, you may choose to create a template of your own using the same tools I used under the 
+[branch/template](https://github.com/westwardfishdme/comp250-notes/tree/template) and copy your notes here! 
+
+In order to do so, you must fork the repository; and switch to the `template` branch:
+
+### via github-cli
+```sh
+# if you don't have comp250-notes already...
+gh repo fork westwardfishdme/comp250-notes comp250-notes --clone
+
+# if you have comp250-notes already...
+git clone --branch=template https://github.com/westwardfishdme/comp250-notes
+# then copy your notes over to the newly cloned repo
+```
 
 ## Navigation and Formatting
 The directory is broken up by weeks; starting at enum 0, and proceeds sequentially all the way up to the end of the semester.
