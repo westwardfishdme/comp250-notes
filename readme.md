@@ -72,13 +72,27 @@ cargo build --release
 3. Retrieve the binary from `./scripts/create_notes/target/release/note` by either manually moving it to this directory; OR install it locally by
 copying/moving it to some directory within your `$PATH`
 
-#### Usages
+### Usages
 Below is a few examples of how to use my custom tools:
 
+#### note
 ```sh
 # create new note
 note new --keywords "foo, bar, biz, baz" --title "my new note" new_notes.md
 ```
+If you are on Linux/MacOS; you can use your `env` to set an editor by defining: `$EDITOR`
+and edit files created with:
+
+```sh
+note --edit new --keywords "foo, bar, biz, baz" --title "my new note" new_notes.md
+```
+By default, if you don't have `$EDITOR` defined, the program will try to use `nano` or `vim`;
+if it can't resolve either of these, it will exit with an error (but the file will still be written!).
+
+On Windows, I didn't write much support for it unfortunately-- so it will just open `notepad.exe`; (which I haven't tested myself yet...; apologies)
+> although you may freely choose to change it to something else yourself! The code is Free and Open Source!
+
+#### keywords.sh
 ```sh
 # from the project root directory...
 ./scripts/keywords.sh >> ./keywords.md
