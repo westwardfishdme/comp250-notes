@@ -63,6 +63,30 @@ Below is a following list of tools that I have created for this course:
 -`keyword.sh`: Just a quick shell-script that counts keywords with grep/regex and prints them in an markdown table format. Planned to be merged
 into notes.
 
+**NOTICE!!!:** `note` requires you to compile it from source with Rust. To do so follow the instructions below;
+1. Get and [install Rust from the official site](https://rust-lang.org/tools/install/)
+2. Inside of [./scripts/create_notes/](./scripts/create_notes/), run
+```sh
+cargo build --release
+```
+3. Retrieve the binary from `./scripts/create_notes/target/release/note` by either manually moving it to this directory; OR install it locally by
+copying/moving it to some directory within your `$PATH`
+
+#### Usages
+Below is a few examples of how to use my custom tools:
+
+```sh
+# create new note
+note new --keywords "foo, bar, biz, baz" --title "my new note" new_notes.md
+```
+```sh
+# from the project root directory...
+./scripts/keywords.sh >> ./keywords.md
+# then delete the old keywords manually;
+# I haven't wrote a better form of the script yet-- sorry ;P
+```
+
+
 
 ## Keywords
 All keywords and their occurrences can be found in [keywords.md](./keywords.md)
