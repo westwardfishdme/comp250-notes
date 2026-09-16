@@ -28,10 +28,12 @@ using the site Dr.Thiruvathukal made-- we looked at the sites:
 - How would someone find my tool useful? 
 - What makes my tool a choice for somebody who might be able to use it?
 
+## The first thing you should always do...
+> Always give people an idea of what you are doing
+> People won't remember the technical parts always, but they
+always remember the story.
 
-<!--
-TODO:
-Write these sections at a later date.
--->
-## Problem Solving
-## Marketing Usage
+When demoing; show where exactly an idea comes from.
+
+### Igmation Pedagogy
+Create an experience for students that is holistic.
