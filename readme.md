@@ -77,6 +77,8 @@ On Windows, I didn't write much support for it unfortunately-- so it will just o
 > although you may freely choose to change it to something else yourself! The code is Free and Open Source!
 
 #### keywords.sh
+This will work so long as you have some form of Unix-Compatible shell available;
+For Windows; you can use this under WSL, or using [git-bash](https://gitforwindows.org/)
 ```sh
 # from the project root directory...
 ./scripts/keywords.sh >> ./keywords.md
