@@ -59,8 +59,8 @@ relativity to the previous line.
 Any programs, or scripts that I may use to complete assignments will also be included here under [./scripts](./scripts).
 Below is a following list of tools that I have created for this course:
 
--`notes`: CLI-tool written in Rust that currently only creates notes with the format I have described in the [example markdown](#Example)
--`keyword.sh`: Just a quick shell-script that counts keywords with grep/regex and prints them in an markdown table format. Planned to be merged
+- `notes`: CLI-tool written in Rust that currently only creates notes with the format I have described in the [example markdown](#Example)
+- `keyword.sh`: Just a quick shell-script that counts keywords with grep/regex and prints them in an markdown table format. Planned to be merged
 into notes.
 
 **NOTICE!!!:** `note` requires you to compile it from source with Rust. To do so follow the instructions below;
