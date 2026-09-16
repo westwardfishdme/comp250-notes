@@ -28,9 +28,6 @@ culpa qui officia deserunt mollit anim id est laborum.
 # Sources 
 (if applicable in MLA18)
 ```
-**Content will be fit based on readability on whatever machine I am using.** In other words, don't
-expect the notes to be uniform to end at a specific column, but they will be nearly uniform based on
-relativity to the previous line.
 
 ## Tools used
 - [Zotero](https://github.com/zotero/zotero)
