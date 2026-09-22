@@ -2,6 +2,7 @@
 
 **Date:** 09-15-2026
 **Keywords:**
+Assignment, Git, LaTeX
 
 All assignments in the course are accurate on **Sakai** only.
 
