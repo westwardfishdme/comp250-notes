@@ -3,7 +3,7 @@
 
 get_keywords(){
   # get all keywords
-  grep -hr -A1 -E "^(\*\*Keywords:\*\*)" . | grep -v Foo | grep -v Keywords | awk -F ', ' '{ printf("%s\n%s\n%s\n%s\n", $1, $2, $3, $4, $5 ) }' | sort | grep -v '\--'
+  grep -hr -A1 -E "^(\*\*Keywords:\*\*)" . | grep -v Foo | grep -v Keywords | awk -F ', ' '{ printf("%s\n%s\n%s\n%s\n%s\n", $1, $2, $3, $4, $5, $6 ) }' | sort | grep -v '\--'
 }
 
 SAVEIFS=$IFS
