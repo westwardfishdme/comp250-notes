@@ -36,6 +36,9 @@ to deal with litigation for overviewing my work. The best option is to license i
 another copyleft license that is [compatible with the GPL-3, therefore I chose the CC-BY.](https://www.gnu.org/licenses/license-list.html#ccby)
 
 Writing is considered an art, not a utility. The GPL is a technical license first, and the CC-BY is
-an art license first. 
+an art license first. That is why I chose it.
 
 # Sources
+Lacan, Jacques, and Bruce Fink. Écrits: The First Complete Edition in English. W.W. Norton & Co, 2006.
+“The GNU General Public License v3.0 - GNU Project - Free Software Foundation.” Accessed September 22, 2026. https://www.gnu.org/licenses/gpl-3.0.en.html.
+“Various Licenses and Comments about Them - GNU Project - Free Software Foundation.” Accessed September 22, 2026. https://www.gnu.org/licenses/license-list.html.
