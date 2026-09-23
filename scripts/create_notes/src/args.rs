@@ -21,7 +21,7 @@ pub enum Commands {
 pub struct NewArgs {
     /// Name of the file.
     pub filename: String,
-    #[arg(long, short, value_delimiter = ' ', num_args=1..)]
+    #[arg(long, short, value_delimiter = ',', num_args=1..)]
     /// Appends the Keywords to the file;
     /// Separated by commas.
     pub keywords: Vec<String>,
