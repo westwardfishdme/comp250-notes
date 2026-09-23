@@ -66,5 +66,5 @@ pub fn find_keywords(
         }
     }
     // we couldn't find a match
-    Err("Could not find the 'keywords' line".into())
+    Ok(None)
 }

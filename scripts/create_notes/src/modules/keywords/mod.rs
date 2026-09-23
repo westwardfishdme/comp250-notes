@@ -89,7 +89,7 @@ pub fn kw_count<T: Into<PathBuf>>(
                     None => kw_map.insert(kw.into(), 1),
                 };
             }),
-            None => return Err("No Keywords were found in a file...".into()),
+            None => (),
         };
     }
     Ok(kw_map)
