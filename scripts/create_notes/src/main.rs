@@ -1,15 +1,18 @@
 /// Note creator.
 /// usage:
 mod args;
+use std::collections::HashSet;
 use std::error::Error;
+use std::fs::canonicalize;
+use std::path::PathBuf;
 
 use args::{Commands, NoteArgs};
 use clap::Parser;
 mod modules;
-use modules::new;
+use modules::{keywords, new};
 use std::env;
 use std::ffi::OsString;
-use std::process::{Command, Stdio};
+use std::process::{Command, Stdio, exit};
 
 #[cfg(target_os = "windows")]
 fn edit_file<T: ToString>(file: T) -> Result<(), Box<dyn Error>> {
@@ -77,6 +80,31 @@ fn main() -> Result<(), Box<dyn Error>> {
             };
             if args.edit {
                 edit_file(file)?
+            }
+        }
+        Commands::Keywords(keywordargs) => {
+            let ignore_dirs: HashSet<PathBuf> = match keywordargs.ignore_paths {
+                Some(dirs) => {
+                    let mut idirs = HashSet::new();
+
+                    for dir in dirs {
+                        let dir = canonicalize(dir)?;
+                        idirs.insert(dir);
+                    }
+                    idirs
+                }
+                None => HashSet::new(),
+            };
+            let keywords =
+                keywords::kw_count(keywordargs.directory, keywordargs.ignore, ignore_dirs)?;
+            if keywords.is_empty() {
+                eprintln!("[error]: no valid notes found in this directory");
+                exit(1)
+            }
+            match keywordargs.output.to_lowercase().as_str() {
+                "markdown" | "md" => keywords::format_md(keywords),
+                "csv" => keywords::format_csv(keywords),
+                _ => return Err("Bad file type, please choose from 'markdown' or 'csv'".into()),
             }
         }
     };

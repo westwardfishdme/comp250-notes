@@ -1,4 +1,5 @@
 use crate::args::NewArgs;
+use crate::modules::utils::capitalize::Capitalize;
 use chrono::{self, Datelike};
 use std::{error::Error, fs, io::Write};
 
@@ -17,7 +18,7 @@ fn create_file(
         Some(v) => format!("# {v}\n\n"),
         None => {
             let temp: Box<[&str]> = filename.split(".").collect();
-            format!("# {}\n", temp[0].to_string())
+            format!("# {}\n", temp[0])
         }
     };
     let now = chrono::Local::now();
@@ -28,9 +29,9 @@ fn create_file(
     for (idx, keyword) in keywords.iter().enumerate() {
         let key = keyword.trim_start().trim_end();
         if idx == keywords.len() - 1 {
-            keyword_str.push_str(key);
+            keyword_str.push_str(key.capitalize().as_str());
         } else {
-            keyword_str.push_str(format!("{}, ", key).as_str());
+            keyword_str.push_str(format!("{}, ", key.capitalize()).as_str());
         }
     }
 
