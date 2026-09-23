@@ -27,11 +27,13 @@ fn create_file(
     let mut keyword_str = String::from("**Keywords:**\n");
 
     for (idx, keyword) in keywords.iter().enumerate() {
-        let key = keyword.trim_start().trim_end();
-        if idx == keywords.len() - 1 {
-            keyword_str.push_str(key.capitalize().as_str());
-        } else {
-            keyword_str.push_str(format!("{}, ", key.capitalize()).as_str());
+        if !keyword.trim().is_empty() {
+            let key = keyword.trim();
+            if idx == keywords.len() - 1 {
+                keyword_str.push_str(key.capitalize().as_str());
+            } else {
+                keyword_str.push_str(format!("{}, ", key.capitalize()).as_str());
+            }
         }
     }
 
