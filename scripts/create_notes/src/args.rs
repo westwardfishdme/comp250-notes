@@ -21,7 +21,7 @@ pub enum Commands {
 pub struct NewArgs {
     /// Name of the file.
     pub filename: String,
-    #[arg(long, short, value_delimiter = ',')]
+    #[arg(long, short, value_delimiter = ' ', num_args=1..)]
     /// Appends the Keywords to the file;
     /// Separated by commas.
     pub keywords: Vec<String>,
@@ -40,9 +40,9 @@ pub struct KeywordArgs {
     /// Can be either "markdown" or "csv"
     #[arg(long, short, default_value = "md")]
     pub output: String,
-    #[arg(long, short, value_delimiter = ',')]
+    #[arg(long, short, value_delimiter = ' ',num_args=1..)]
     /// Provide a list of keywords to ignore.
     pub ignore: Option<Vec<String>>,
-    #[arg(long, short = 'E', value_delimiter = ',')]
+    #[arg(long, short = 'e', value_delimiter = ' ', num_args=1..)]
     pub ignore_paths: Option<Vec<String>>,
 }
