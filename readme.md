@@ -72,13 +72,13 @@ cargo build --release
 3. Retrieve the binary from `./scripts/create_notes/target/release/note` by either manually moving it to this directory; OR install it locally by
 copying/moving it to some directory within your `$PATH`
 
-### Usages
-Below is a few examples of how to use my custom tools:
+### note tool
+Note is a free and open source note-taking tool designed for UNIX systems (Mac and Linux)
 
-#### note
+To create a new note you can use the following format:
 ```sh
 # create new note
-note new --keywords "foo, bar, biz, baz" --title "my new note" new_notes.md
+note new --keywords foo, bar, biz, baz --title "my new note" new_notes.md
 ```
 If you are on Linux/MacOS; you can use your `env` to set an editor by defining: `$EDITOR`
 and edit files created with:
@@ -92,16 +92,34 @@ if it can't resolve either of these, it will exit with an error (but the file wi
 On Windows, I didn't write much support for it unfortunately-- so it will just open `notepad.exe`; (which I haven't tested myself yet...; apologies)
 > although you may freely choose to change it to something else yourself! The code is Free and Open Source!
 
-#### keywords.sh
-This will work so long as you have some form of Unix-Compatible shell available;
-For Windows; you can use this under WSL, or using [git-bash](https://gitforwindows.org/)
+#### Getting Keywords
+
+You can get keywords with the `note` tool: You can output to a CSV or markdown table:
+
 ```sh
-# from the project root directory...
-./scripts/keywords.sh >> ./keywords.md
-# then delete the old keywords manually;
-# I haven't wrote a better form of the script yet-- sorry ;P
+# recursively search the current working directory 
+# for .md files and print the output as a csv. 
+note keywords -o csv 
 ```
 
+you can also get specify a specific directory to search in:
+```sh
+# will ONLY search for keywords from files within ./week0
+note keywords -d ./week0
+
+```
+
+you can also exclude certain keywords, files, or directories:
+```sh
+#ignore the readme file, and the scripts directory. 
+note keywords -e ./readme.md ./scripts 
+```
+
+to exclude keywords:
+```sh
+# ignore instances of foo AND bar
+note keywords -i foo bar 
+```
 
 
 ## Keywords
