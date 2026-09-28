@@ -4,7 +4,7 @@ My note creator written in Rust.
 
 **Usage:** 
 ```sh
-notes new "my_cool_notes" --keywords "Hamburger, Philosophy, Food" -t "The Philosophy of the Hamburger"
+note new "my_cool_notes" --keywords "Hamburger, Philosophy, Food" -t "The Philosophy of the Hamburger"
 
 # creates the file:
 # my_cool_notes.md
@@ -27,7 +27,6 @@ Hamburger, Philosophy, Food
 Future editions may include a keyword search using a regular expression:
 
 ```sh
-# search the current directory for all keywords.
-notes keywords .
+note keywords
 ```
 which would operate similarly to the script already included inside of [keywords.sh](../keywords.sh)
