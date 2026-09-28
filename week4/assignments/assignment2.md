@@ -8,6 +8,20 @@ abstract: |
 ---
 # The Identity of Hackers: Forged in Film
 
+
+<!--
+Can use some revision
+
+(2.) The introduction also doesn't feel too good either, I feel like this 
+tackles more the aesthetic feel of what a "hacker" is than the actual difference
+between screenplay and real life [which is what i was intending to argue in this paper.]
+
+  NOTE:
+  Actually, maybe the introduction does a good job of distinguishing reality
+  from film. I don't know may have to ask for a second opinion or see what 
+  grade i receive for this assignment and use that feedback to improve it.
+-->
+
 What do you think of when you think of a hacker's bedroom? Most would
 think of dark rooms, cluttered with colorful text on multiple screens,
 and circuit boards littered everywhere. As an amateur security
@@ -497,6 +511,17 @@ as follows:
 > Stereotype (noun): a standardized mental picture that is
 held in common by members of a group and that represents an
 oversimplified opinion, prejudiced attitude, or uncritical judgment.
+
+<!-- 
+(1.) 
+ TODO: 
+  - reaffirm real impacts consequences from films
+  - maybe look at some real technologies used in the
+    films. Realism and immersion do play a huge role in
+    cultural impact.
+  > i.e. exploration of MODBUS/ICS in Mr. Robot,
+  > or the mention of RISC architecture in Hackers.
+-->
 
 Films are the perfect form of media to create stereotypes. Life is not a
 linear story, and can't be described as such. Directors and producers
