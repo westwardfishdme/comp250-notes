@@ -4,7 +4,7 @@ author: Jonathan Villanueva
 abstract: |
   Short analysis of the portrayal of hackers in film media.
   Written as a part of my tenure at City Colleges of Chicago
-  for a final project for my Film class.
+  for a final project for my film class.
 ---
 # The Identity of Hackers: Forged in Film
 
