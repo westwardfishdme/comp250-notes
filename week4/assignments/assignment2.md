@@ -61,7 +61,7 @@ necessary to keep in mind: the one defined by Levy and Himanen, and the
 stereotypical one we created now. With that said, there are multiple
 classifications of hackers regarding their ethical and legal standing,
 defined through cybersecurity jargon. These terms often follow a lexical
-pattern of color, followed by 'hat' to discern whether a hacker is
+pattern of color followed by 'hat' to discern whether a hacker is
 breaking the law, or is hacking under legal premises. The main three
 colors are White, Gray, and Black Hat hackers. A Black Hat hacker is
 someone who hacks with total malicious intent on their targets, either
@@ -71,29 +71,14 @@ informational gain fall under this category. In contrast, there is the
 White Hat hacker. A White Hat hacker is someone who hacks with
 permission and does so legally. In this category of hackers, you'll find
 security researchers, ethical hackers, cybersecurity engineers, and
-other professionals. Finally, there are the Gray Hat hackers who are the
-blend between the two. Gray Hat hackers are those who break the law, be
-it intentionally or unintentionally for any reason. These hackers are
-those who stand on the fine line of ethical and unethical hacking, and
-pattern of color, followed by 'hat' to discern whether a hacker is
-breaking the law, or is hacking under legal premises. The main three
-colors are White, Gray, and Black Hat hackers. A Black Hat hacker is
-someone who hacks with total malicious intent on their targets, either
-for money or for notoriety; Most cyber-criminals such as malware gangs,
-ransom-ware gangs, or anyone looking for illicit financial or
-informational gain fall under this category. In contrast, there is the
-White Hat hacker. A White Hat hacker is someone who hacks with
-permission and does so legally. In this category of hackers, you'll find
-security researchers, ethical hackers, cybersecurity engineers, and
-other professionals. Finally, there are the Gray Hat hackers who are the
-blend between the two. Gray Hat hackers are those who break the law, be
-it intentionally or unintentionally for any reason. These hackers are
-those who stand on the fine line of ethical and unethical hacking, and
-as the color describes, can have many different shades-- some more
-ethical than others, and the others the opposite. This color category is
-often applied to hacktivists, non-malicious hackers who hack things that
-they are not legally allowed to, and hackers who break the law but do so
-in righteous effort such as whistleblowers.
+other professionals. 
+
+Finally, there are the Gray Hat hackers who are the blend between the two. 
+Gray Hat hackers are those who break the law, be it intentionally or unintentionally for any reason. 
+These hackers are those who stand on the fine line of ethical and unethical hacking, and as the color describes, 
+can have many different shades-- some more ethical than others, and the others the opposite. This color category is
+often applied to hacktivists, non-malicious hackers who hack things that they are not legally allowed to, and hackers who break the law 
+but do so in a morally righteous effort such as whistleblowers.
 
 So with that said, how exactly did the film industry have an impact on
 Hacker culture, and create the stereotypical hacker? This essay will
