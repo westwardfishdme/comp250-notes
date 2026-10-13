@@ -28,4 +28,6 @@ I would like to do research on how to effectively translate C to Rust using
 lexical analysis (exactly how a compiler works) rather than using a large language model.
 
 This is in large part to contribute to DARPA's TRACTOR project, minus using AI to create what effectively 
-can be achieved by using traditional language processing.
+can be achieved by using traditional language processing, similar to how compilers translate C to machine 
+code. (Essentially having C act as a front-end language to work with Rust in the backend-- i.e.  
+implementing something like a borrow checker for C)
