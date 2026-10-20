@@ -9,6 +9,9 @@ impl<T: ToString> Capitalize for T {
         let words = s.split(' ');
 
         for (i, word) in words.enumerate() {
+            if word.is_empty() {
+                return String::new();
+            }
             let mut word = word
                 .to_string()
                 .as_str()
