@@ -35,11 +35,11 @@ some shortcomings of Rust that pose themselves as issues for creating direct C t
 In addition, this paper also aims to explore other research and projects seeking similar if not
 the same goal of transpiling C to Rust. 
 
-Since the scope of this project's development is limited by time constraints; Therefore it is likely
-I will only to produce something that directly translates *very* rudimentary C
-source code for a single file to get a functional prototype. Therefore, in order 
-to maximize the effectiveness of the research conducted, the code will be published 
-under the GNU Public License 2.0.
+Since the scope of this project's development is limited by time constraints; It is likely
+I will only be able to produce something that directly translates *very* rudimentary C
+in a single file in order to get a functional prototype. In order to maximize the 
+effectiveness of the research conducted, the code will be published under the 
+GNU Public License 2.0.
 
 # Part 2: Process
 For this project I will be writing the paper in markdown and LaTeX, pandoc will also be used to convert it to LaTeX, 
