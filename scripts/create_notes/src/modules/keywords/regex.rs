@@ -29,11 +29,14 @@ pub fn find_keywords(
                     if v.trim().is_empty() {
                         return Ok(None);
                     }
-                    let x = &file.into_os_string().into_string().unwrap();
+                    let x = &file
+                        .into_os_string()
+                        .into_string()
+                        .expect("directory contained unexpected characters.");
                     v.split(',').for_each(|mut k| {
                         k = k.trim();
                         if k.is_empty() {
-                            eprintln!("{x} contains keyword string with no value");
+                            eprintln!("WARN: {x} contains keyword string with no value");
                         } else {
                             keywords.insert(k.capitalize());
                         }
