@@ -29,9 +29,14 @@ pub fn find_keywords(
                     if v.trim().is_empty() {
                         return Ok(None);
                     }
-
-                    v.split(',').for_each(|k| {
-                        keywords.insert(k.capitalize());
+                    let x = &file.into_os_string().into_string().unwrap();
+                    v.split(',').for_each(|mut k| {
+                        k = k.trim();
+                        if k.is_empty() {
+                            eprintln!("{x} contains keyword string with no value");
+                        } else {
+                            keywords.insert(k.capitalize());
+                        }
                     })
                 }
                 None => return Err("File ended at 'keywords'".into()),
