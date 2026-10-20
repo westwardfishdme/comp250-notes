@@ -2,7 +2,7 @@
 
 **Date:** 9-29-2026
 **Keywords:**
-Writing, Research Writing, Synthesizing Information, Public Speaking, 
+Writing, Research Writing, Synthesizing Information, Public Speaking
 
 1. Write as if you are talking to a colleague
 2. Place subjects first in sentences to improve 

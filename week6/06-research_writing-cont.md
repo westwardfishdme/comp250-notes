@@ -2,7 +2,7 @@
 
 **Date:** 10-8-2026
 **Keywords:**
-Research Writing, Writing, 
+Research Writing, Writing
 
 
 ## Effective Writing
