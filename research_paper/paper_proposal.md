@@ -25,7 +25,7 @@ In 2025, the industry norm for memory vulnerabilities stood at a
 [70% of all reported vulnerabilities](https://blog.google/security/rust-in-android-move-fast-fix-things/)(Stoep, 2025).
 In the same year, the Defense Advanced Research Projects Agency (DARPA) announced their **TRACTOR** project;
 an acronym for "**Tr**anslating **A**ll **C TO R**ust. Their goal was to eliminate vulnerable C code by translating
-it into Rust, which has stricter guidelines when it comes to memory safety.
+it into Rust, which has stricter compile-time guidelines when it comes to memory safety.
 
 ## Goal
 The goal of this paper is to conduct research into what makes Rust a strong replacement for 
