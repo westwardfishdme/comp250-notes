@@ -6,7 +6,7 @@ Assignment, Research Paper, Research Writing, Overview
 
 # Summary
 This document outlines Finch's Research Project Proposal and serves as his introduction 
-to what technology, and methodology used in order to conduct the research.
+to what technology, and methodology was used in order to conduct the research.
 
 # Part 1: Topic, Question, and Problem
 Since the creation of C and the modern computing environment in the 1970's, a large issue 
@@ -17,8 +17,8 @@ to memory safety.
 
 This has allowed code containing explicit undefined behavior to slip past the 
 compiler. Such vulnerable code can cause massive disruption to systems including
-security incidents, and outages; which has brought entire industries screeching to
-a halt.
+security incidents, system outages, and buggy code; which can bring entire industries 
+screeching to a halt.
 
 ## History
 In 2025, the industry norm for memory vulnerabilities stood at a 
