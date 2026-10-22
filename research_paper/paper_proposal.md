@@ -9,9 +9,12 @@ This document outlines Finch's Research Project Proposal and serves as his intro
 to what technology, and methodology was used in order to conduct the research.
 
 # Part 1: Topic, Question, and Problem
+
 Since the creation of C and the modern computing environment in the 1970's, a large issue 
 that has plagued the world of system's level programming has been the process of manual 
-memory management. While C provided a higher-level of abstraction and fulfilled the
+memory management. In 2025, the industry norm for memory vulnerabilities stood at a 
+[70% of all reported vulnerabilities](https://blog.google/security/rust-in-android-move-fast-fix-things/)(Stoep, 2025).
+While C provided a higher-level of abstraction and fulfilled the
 growing desire for a more readable and portable language, the compiler lacks any regard
 to memory safety. 
 
@@ -20,12 +23,16 @@ compiler. Such vulnerable code can cause massive disruption to systems including
 security incidents, system outages, and buggy code; which can bring entire industries 
 screeching to a halt.
 
-## History
-In 2025, the industry norm for memory vulnerabilities stood at a 
-[70% of all reported vulnerabilities](https://blog.google/security/rust-in-android-move-fast-fix-things/)(Stoep, 2025).
-In the same year, the Defense Advanced Research Projects Agency (DARPA) announced their **TRACTOR** project;
-an acronym for "**Tr**anslating **A**ll **C TO R**ust. Their goal was to eliminate vulnerable C code by translating
-it into Rust, which has stricter compile-time guidelines when it comes to memory safety.
+## How this was initially addressed
+Over the years, there have been numerous technologies and programming languages developed and released that
+had addressed the issues that plague C's memory model. Most of the solutions included using what is known as
+a "garbage collector" which handles memory for the user by automatically allocating and deallocating symbols
+at run-time. 
+
+
+In the year prior that the 2025 report regarding memory vulnerabilities was released, the Defense Advanced Research Projects Agency (DARPA) 
+announced their **TRACTOR** project; an acronym for "**Tr**anslating **A**ll **C TO R**ust. Their goal was to eliminate vulnerable C code by 
+translating it into Rust, which has stricter compile-time guidelines when it comes to memory safety.
 
 ## Goal
 The goal of this paper is to conduct research into what makes Rust a strong replacement for 
@@ -49,7 +56,13 @@ generated Rust program using python 3.14. Other similar implementations will be 
 C program. Another C file containing undefined behavior will also be tested against with both my implementation and other
 implementations to both refine my program and to test comparative metrics.
 
+<!--
+TODO:
+- turn these into actual citations.
+
+-->
 Below are some sources I will be using to perform my research:
+- [Google 2025 Report](https://blog.google/security/rust-in-android-move-fast-fix-things/)
 - [Quick introduction to TRACTOR](https://www.youtube.com/watch?v=p-ktEmoKo78)
 - [DARPA's official TRACTOR page](https://www.darpa.mil/research/programs/translating-all-c-to-rust)
 - [MIT's Lincoln Labs' sample implementation of TRACTOR](https://www.ll.mit.edu/r-d/projects/translating-all-c-rust-tractor-benchmarks)
