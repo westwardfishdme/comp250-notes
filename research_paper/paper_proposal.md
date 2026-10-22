@@ -56,11 +56,6 @@ generated Rust program using python 3.14. Other similar implementations will be 
 C program. Another C file containing undefined behavior will also be tested against with both my implementation and other
 implementations to both refine my program and to test comparative metrics.
 
-<!--
-TODO:
-- turn these into actual citations.
-
--->
 Below are some sources I will be using to perform my research:
 - [DARPA. “TRACTOR | DARPA.” 2024.](https://www.darpa.mil/research/programs/translating-all-c-to-rust)
 - [DARPA. TRACTOR Proposers Day Presentations. 2024. 01:13:52.](https://www.youtube.com/watch?v=p-ktEmoKo78)
@@ -74,5 +69,5 @@ Other Technologies and Transpilers looked at:
 - [“Translating All C To Rust (TRACTOR) Benchmarks | MIT Lincoln Laboratory.”](https://www.ll.mit.edu/r-d/projects/translating-all-c-rust-tractor-benchmarks)
 
 Standards/Compilers used:
-- [Rust Reference for 1.95](https://doc.rust-lang.org/1.95.0/reference/)
+- Cargo/rustc v1.97.1 [(Rust Reference for 1.97.1)](https://doc.rust-lang.org/1.97.1/reference/)
 - gcc version 16.2.1 [(using C standard: ISO C99)](https://www.gwduan.com/web/computer/languages/c/c99.pdf)
