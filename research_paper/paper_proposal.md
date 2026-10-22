@@ -62,11 +62,17 @@ TODO:
 
 -->
 Below are some sources I will be using to perform my research:
-- [Google 2025 Report](https://blog.google/security/rust-in-android-move-fast-fix-things/)
-- [Quick introduction to TRACTOR](https://www.youtube.com/watch?v=p-ktEmoKo78)
-- [DARPA's official TRACTOR page](https://www.darpa.mil/research/programs/translating-all-c-to-rust)
-- [MIT's Lincoln Labs' sample implementation of TRACTOR](https://www.ll.mit.edu/r-d/projects/translating-all-c-rust-tractor-benchmarks)
-- [Github repository of TRACTOR](https://github.com/DARPA-TRACTOR-Program)
-- [Rust-to-C transpiler (rs2c) library crate](https://docs.rs/rs2c/latest/rs2c/)
-- [C-to Rust Transpiler (c2rust) library crate ](https://github.com/immunant/c2rust/blob/master/README.md)
-- [ACM's research on a c2rust transpiler using LLM's + static analysis](https://cacm.acm.org/research/automatically-translating-c-to-rust/)
+- [DARPA. “TRACTOR | DARPA.” 2024.](https://www.darpa.mil/research/programs/translating-all-c-to-rust)
+- [DARPA. TRACTOR Proposers Day Presentations. 2024. 01:13:52.](https://www.youtube.com/watch?v=p-ktEmoKo78)
+- [Hong, Jaemin, and Sukyoung Ryu. “Automatically Translating C to Rust” Communications of the ACM 68, no. 11 (2025): 56–65.](https://doi.org/10.1145/3737696)
+- [Stoep, Jeff Vander. “Rust in Android: Move Fast and Fix Things.” Google, November 13, 2025.](https://blog.google/security/rust-in-android-move-fast-fix-things/)
+- [Steve Klabnik, Carol Nichols, and Chris Krycho. The Rust Programming Language. 3rd ed. With Rust Community. No Starch Press, 2026.](https://doc.rust-lang.org/stable/book/)
+
+Other Technologies and Transpilers looked at:
+- [“Immunant/C2rust: Migrate C Code to Rust.”](https://github.com/immunant/c2rust/tree/master)
+- [“Rs2c - Rust.”](https://docs.rs/rs2c/latest/rs2c/)
+- [“Translating All C To Rust (TRACTOR) Benchmarks | MIT Lincoln Laboratory.”](https://www.ll.mit.edu/r-d/projects/translating-all-c-rust-tractor-benchmarks)
+
+Standards/Compilers used:
+- [Rust Reference for 1.95](https://doc.rust-lang.org/1.95.0/reference/)
+- gcc version 16.2.1 [(using C standard: ISO C99)](https://www.gwduan.com/web/computer/languages/c/c99.pdf)
