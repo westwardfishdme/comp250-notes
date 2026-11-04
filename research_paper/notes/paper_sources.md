@@ -46,4 +46,4 @@ convert legacy C projects over to Rust in scale.
 
 The sources above are standards and open-source code repositories that are mentioned in some of the papers above; included for 
 in-depth analysis and inspiration as I approach towards a working implementation, and to explore the semantical issues as described in
-[section 1](#1.-Papers-that-cover-the-linguistic-and-semantic-issues-that-arise-when-translating-to-Rust.).
+[section 1](#1-papers-that-cover-the-linguistic-and-semantic-issues-that-arise-when-translating-to-rust).
