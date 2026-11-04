@@ -24,7 +24,7 @@ translating to a language like Rust where these idiomatic styles fail the Borrow
 - Sirlanci, Melih, Carter Yagemann, and Zhiqiang Lin. “C2RUST-BENCH: A Minimized, Representative Dataset for C-to-Rust Transpilation Evaluation.” arXiv:2504.15144. Preprint, arXiv, April 21, 2025. https://doi.org/10.48550/arXiv.2504.15144.
 - Yao, Junjie, Xiongzheng Guan, Jia Feng, Yujia Chen, Hongliang Tian, and Cuiyun Gao. “SpeC2Rust: Specification-Driven Repository-Level C-to-Rust Translation.” Version 1. Preprint, arXiv, October 27, 2026. https://doi.org/10.48550/ARXIV.2610.34141.
 
-The research above explores empirical analysis of the raw performance of C to Rust translations; _however what is missing is compilation performance_ which does need further exploration.
+The research above explores empirical analysis of the raw performance of C to Rust translations; <ins>however what is missing is compilation performance</ins> which does need further exploration.
 These benchmarks will be useful in analyzing and understanding the runtime performance of direct C to Rust translations during tests.
 
 ## 3. Security implications of undefined behavior in C projects that pose real threats to the use of C in large codebases 
