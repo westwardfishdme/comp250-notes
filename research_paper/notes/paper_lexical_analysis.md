@@ -196,12 +196,8 @@ fn main(){
     x = addcool(x);
 }
 ```
-The number
-
-
-
-
-
+The number `123` is actually compiled into the program and cannot be changed at all; `const` keywords dictate a promise to the
+compiler that the number will not be changed at any point during execution, and will remain the same value throughout.
 
 ## Implicit Returns
 Unlike C, Rust does not require the `return` keyword when at the end of a function.
@@ -231,7 +227,7 @@ int main(void){
 ```
 While this example is easy to understand, let's look at some more advanced Rust:
 ```rust
-fn between_three_options(&mut x:u8){
+fn between_three_options(mut x:u8)-> u8{
     x += 1;
     match x{
         1=> 132,
@@ -248,13 +244,99 @@ fn main(){
     let a = between_three_options(y); // a = 0
 }
 ```
+This code would be the equivalent of:
 
+```C
+#include <stdio.h>
+unsigned char between_three_options(unsigned char x) {
+    switch (x += 1) {
+    case 1:
+      return 132;
+      break;
+    case 2:
+      return 240;
+      break;
+    case 3:
+      return 56;
+      break;
+    default:
+      return 0;
+      break;
+    }
+}
+int main(void) {
+    unsigned char x = 2;
+    unsigned char y = 3;
+    unsigned char z = between_three_options(x);
+    unsigned char a = between_three_options(y);
+}
+```
 
+The code is nearly identical with the caveat of the implicit return type in Rust.
+This is because the result of the match statement stores the value of the internal
+enumeration after it has found it's 'match point' and it determines the value that is
+returned; using a jump table to return the correct answer.
 
+In C, we must use the `switch` statement which is the operates the exact same; however
+we need to know when something is an explicit return because the answer must be enumerated within
+that jump table-- or if the code needs to refer to the continuation of the program rather than explicitly
+return an error-- which is where the problems arise.
 
+### Explicit Errors
+In C, you would have to determine what value is considered an "error value" and check externally from the function
+whether that value is reached at any point. In Rust you can use the Result Enumeration:
+```rust
+use std::error::Error;
 
+fn between_three_options(mut x:u8)-> Result<u8, &'static str>{
+    x += 1;
+    match x{
+        1=> Err("Value is 3 numbers too low"),
+        2=> Err("Value is 2 numbers too low"),
+        3=> Err("Value is 1 numbers too low"),
+        _=> Ok(0)
+    }
+}
 
-
+fn main()-> Result<(), Box<dyn Error>>{
+    let x: u8 = 0;
+    let a = between_three_options(x)?; // would result in an error and exit with an error message.
+    let b = between_three_options(5)?; // b would store Ok(0); but is unreachable.
+    println!("b value= {}", b);
+    
+  Ok(())
+}
+```
+Where as something like this in C would require more error recovery:
+```C
+#include <stdio.h>
+unsigned char between_three_options(unsigned char x) {
+    switch (x += 1) {
+    case 1:
+      fprintf(stderr,"Value is 3 numbers too low")
+      exit(1);
+      break;
+    case 2:
+      fprintf(stderr,"Value is 2 numbers too low")
+      exit(1);
+      break;
+    case 3:
+      fprintf(stderr,"Value is 1 numbers too low")
+      exit(1);
+      break;
+    default:
+      return 0;
+      break;
+    }
+}
+int main(void) {
+    unsigned char x = 0;
+    unsigned char a = between_three_options(x);
+    unsigned char b = between_three_options(5); // code is unreachable
+}
+```
+Which is why implicit returns can be difficult to implement should we have to enumerate over
+Result Types.
 ## Generics and Polymorphic Behavior
 Generics are something that are exclusive to Rust, and are what allow it to perform polymorphic behavior.
 The best way to exemplify this is with the `Vec<T>` type which create a struct of type `T` which is a generic.
