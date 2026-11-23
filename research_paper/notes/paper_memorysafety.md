@@ -79,6 +79,8 @@ I have been writing Rust for the past 3 years, prior to which I would write proj
 Rust is the only language with a comfortable enough ecosystem that makes developing performant software easy
 without having to deal with manual memory management; or having to make arcane optimizations to my codebase
 to shave off milliseconds of runtime (python specifically annoys me with this).
-
 -->
 # Bibliography
+- “Rust Reference for 1.95.” Accessed October 21, 2026. https://doc.rust-lang.org/1.95.0/reference/.
+- Steve Klabnik, Carol Nichols, and Chris Krycho. The Rust Programming Language. 3rd ed. With Rust Community. No Starch Press, 2026. https://doc.rust-lang.org/stable/book/.
+- Stoep, Jeff Vander. “Rust in Android: Move Fast and Fix Things.” Google, November 13, 2025. https://blog.google/security/rust-in-android-move-fast-fix-things/.
