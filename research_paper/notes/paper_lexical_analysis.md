@@ -307,7 +307,7 @@ fn main()-> Result<(), Box<dyn Error>>{
   Ok(())
 }
 ```
-Where as something like this in C would require more error recovery:
+Where as something like this in C would require more error handling:
 ```C
 #include <stdio.h>
 unsigned char between_three_options(unsigned char x) {
