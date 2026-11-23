@@ -492,3 +492,7 @@ and thus deriving methods from derived functions can prove themselves to be diff
 translate from C.
 3. Pointers make understanding what v
 
+# Bibliography
+- ISO/IEC. ISO/IEC 9899:1999. Second Edition. American National Standards Institute, Withdrawn 2004 December 1999. https://www.gwduan.com/web/computer/languages/c/c99.pdf.
+- “Rust Reference for 1.95.” Accessed October 21, 2026. https://doc.rust-lang.org/1.95.0/reference/.
+- Steve Klabnik, Carol Nichols, and Chris Krycho. The Rust Programming Language. 3rd ed. With Rust Community. No Starch Press, 2026. https://doc.rust-lang.org/stable/book/.
