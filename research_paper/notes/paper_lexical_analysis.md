@@ -490,7 +490,10 @@ The object-oriented like syntax of Rust makes it possible to have simplified ver
 and thus deriving methods from derived functions can prove themselves to be difficult to translate.
 2. Rust's generic system allows developers to build complex programs that exhibit polymorphic behavior that otherwise would be difficult to
 translate from C.
-3. Pointers make understanding what v
+3. Pointers make understanding what counts as verifiable proper behavior of a program difficult because
+the behavior in Unsafe Rust is vastly different than to what it is in C; Therefore projects that rely
+on finding such undefined behavior at run-time can be provingly difficult to translate because certain
+abstractions in Rust make these nearly pointless to transliterate-- or require a different solution overall.
 
 # Bibliography
 - ISO/IEC. ISO/IEC 9899:1999. Second Edition. American National Standards Institute, Withdrawn 2004 December 1999. https://www.gwduan.com/web/computer/languages/c/c99.pdf.
