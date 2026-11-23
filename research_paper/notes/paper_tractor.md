@@ -123,3 +123,8 @@ implementations will need to use generative AI to recreate the variable naming s
 As the TRACTOR project proposes, a combination of generative AI and traditional static code analysis will be
 necessary to recreate readable code as if it was naturally written. As for my implementation; symbols and variables
 will either be directly transcribed, OR assigned a name dependent on variable lifetime.
+
+# Bibliography
+- DARPA. “TRACTOR | DARPA.” 2024. https://www.darpa.mil/research/programs/translating-all-c-to-rust.
+- DARPAtv. TRACTOR Proposers Day Presentations. 2024. 01:13:52. https://www.youtube.com/watch?v=p-ktEmoKo78.
+- Knuth, Donald E. “Structured Programming with Go to Statements.” ACM Comput. Surv. 6, no. 4 (1974): 268. https://doi.org/10.1145/356635.356640.
