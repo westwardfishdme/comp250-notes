@@ -7,6 +7,7 @@ For the bemchmarking portion of my analysis; I have broke it up into 3 distinct 
 
 1. Analyzing run-time performance.
 2. Analyzing time of compilation.
+3. Analyzing Memory Safety
 
 ## Why does compilation time matter?
 Although it is not as important as the run-time performance of the actual software,
@@ -20,4 +21,5 @@ into the binary since it can cause unnecessary bloating of the outputted binary.
 While this might not matter for projects that are using 'one-shot' functions,
 code that is dependent on DRY principles will prefer to use dynamic linking since
 these particular functions serve purpose across several different programs.
+
 
