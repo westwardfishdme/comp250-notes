@@ -148,6 +148,6 @@ of the scope of this project and paper.
 
 # Bibliography
 
-ISO/IEC. ISO/IEC 9899:1999. Second Edition. American National Standards Institute, Withdrawn, December 1999. https://www.gwduan.com/web/computer/languages/c/c99.pdf.
-“Lifetime - Cppreference.Com.” Accessed November 17, 2026. https://en.cppreference.com/c/language/lifetime.
-Steve Klabnik, Carol Nichols, and Chris Krycho. The Rust Programming Language. 3rd ed. With Rust Community. No Starch Press, 2026. https://doc.rust-lang.org/stable/book/.
+- ISO/IEC. ISO/IEC 9899:1999. Second Edition. American National Standards Institute, Withdrawn, December 1999. https://www.gwduan.com/web/computer/languages/c/c99.pdf.
+- “Lifetime - Cppreference.Com.” Accessed November 17, 2026. https://en.cppreference.com/c/language/lifetime.
+- Steve Klabnik, Carol Nichols, and Chris Krycho. The Rust Programming Language. 3rd ed. With Rust Community. No Starch Press, 2026. https://doc.rust-lang.org/stable/book/.
