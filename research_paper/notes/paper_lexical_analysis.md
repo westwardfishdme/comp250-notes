@@ -411,7 +411,7 @@ used for `p1` as defined in the function on line 15 (`mid_point(&self, other_poi
 
 This type of syntax while possible in C, is extremely hard to reproduce-- as it would require using
 pointers to functions in order to be able to call values. It would be much easier to write a function
-that dictates how to calculate the midpoint as written in the my translated version below:
+that dictates how to calculate the midpoint as written in my translated version below:
 ```c
 #include <stdio.h>
 #include <stdlib.h>
