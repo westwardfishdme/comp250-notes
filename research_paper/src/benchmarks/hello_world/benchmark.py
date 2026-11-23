@@ -108,6 +108,11 @@ class Data:
         """
         return self.__user
 
+    def csv(self) -> str:
+        """
+        Prints the output in csv format
+        """
+
     def __repr__(self) -> str:
         return f"Data(\n{self.__real},\n{self.__kernel},\n{self.__user})"
 
@@ -152,9 +157,7 @@ def parse_compiler_output(time_output: list[str]) -> (Data, Data):
         idx += 1
     gcc_stats = Data(r, k, u)
 
-    data = (cargo_stats, gcc_stats)
-
-    return data
+    return (cargo_stats, gcc_stats)
 
 
 def compile() -> bytes:
@@ -225,7 +228,7 @@ class Results:
 
     def average() -> str:
         """
-        returns the results in string representation format
+        returns the results in string representation forma
         """
         assert len(Results.RUST_KERNEL_TIMES) == MAX_ITER
         Results.RUST_K_AVG = average(Results.RUST_KERNEL_TIMES)

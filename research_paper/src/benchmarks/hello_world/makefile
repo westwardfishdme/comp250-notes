@@ -1,5 +1,5 @@
-CC= time gcc
-RUSTC = time rustc
+CC= time -p "%E" gcc
+RUSTC = time rustc --release
 CC_FLAGS= -std=c99 -O3
 SRC= ./src
 
