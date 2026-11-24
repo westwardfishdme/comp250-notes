@@ -167,7 +167,7 @@ def compile() -> bytes:
     # start the compilation process of both programs
     try:
         makeprocess = subprocess.check_output(
-            ["make", "-s", "benchmark"], stderr=subprocess.STDOUT)
+            ["./build.sh"], stderr=subprocess.STDOUT)
     except Exception as e:
         print(f"make ran into a problem: ({e})")
         os._exit(1)
@@ -285,7 +285,7 @@ def main(total_iters: int, forked=True) -> Results:
 
     for i in range(total_iters):
         if not forked:
-            print(f"running iteration: {i+1}/{total_iters}", sys.stderr)
+            print(f"running iteration: {i+1}/{total_iters}", file=sys.stderr)
         output = compile()
         # begin parsing output to get numeric data:
         (cargo_data, gcc_data) = parse_compiler_output(output)
