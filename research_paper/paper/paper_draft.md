@@ -12,6 +12,14 @@ abstract: |
   that allows for developers to write code at a fast pace and be performant-- 
   what was once thought to be a mutually exclusive principle in Software Engineering.
 ---
+# To the Reader
+This is a full working draft of my research paper. It has been a long, and strenuous journey to be able
+to get this paper fully furnished and written for public visibility. There is much to cover in this paper,
+and I didn't have too much time to really prepare what I had intended to do with my research. Hopefully with
+the accessibility of my research, future researchers will be able to manifest my work before I have the ability
+to implement my dreams of Mnemosyne; Granting themselves the ability to achieve what I could not in the short timespan 
+I had spent working on this project. As always, thank you for giving me the time to present my work, and I hope you
+find use out of the research I had worked towards.
 
 # Introduction
 With it's debut in the 1970's, C has been known for it's declaration towards high-level, human-readable code
@@ -36,7 +44,7 @@ manage memory in certain cases.
 # Introducing Rust
 In 2006, a Mozilla developer named Gordon Hoare decided that he would make a memory-safe language 
 as a response to the software required to run his building's elevator failing when he was returning to 
-his 21st floor apartment. Rust was developed as a response to the failures caused by manual memory management in
+his 21st floor apartment[@rust_elevator]. Rust was developed as a response to the failures caused by manual memory management in
 C/C++; however it wouldn't see a full 1.0.0 release until May 15th, 2015[@acm_klabnik_2016]. At the current time of writing this paper,
 Rust is currently at release 1.100.0[@rust_github].
 
@@ -44,6 +52,7 @@ Rust was bootstrapped with OCAML and took a large inspiration from the language[
 Mostly inheriting OCAML's emphasis on safety and it's algebraic data types, but also inheriting some features from 
 other languages like Haskell, RAII from C++, Erlang, Swift, and C# just to name a few [@rust_influences]. But how does 
 the language measure up to an industry titan like C?
+\newpage
 
 ## Benchmarks
 ![Performance Analysis on Run-Time of the Average of 100 million Integers](./images/both_100million-digits-line.png)
