@@ -108,10 +108,22 @@ class Data:
         """
         return self.__user
 
-    def csv(self) -> str:
+    def csv(self, name: str) -> str:
         """
         Prints the output in csv format
         """
+        try:
+            with open(f"{name}.csv", 'r') as file:
+                pass
+            with open(f"{name}.csv", 'a') as file:
+                file.write(f"{self.kernel().seconds},{
+                           self.real().seconds},{self.user().seconds}\n")
+        except FileNotFoundError:
+            with open(f"{name}.csv", 'w') as file:
+                file.write("kernel,real,user\n")
+            with open(f"{name}.csv", 'a') as file:
+                file.write(f"{self.kernel().seconds},{
+                           self.real().seconds},{self.user().seconds}\n")
 
     def __repr__(self) -> str:
         return f"Data(\n{self.__real},\n{self.__kernel},\n{self.__user})"
@@ -156,6 +168,9 @@ def parse_compiler_output(time_output: list[str]) -> (Data, Data):
             cargo_stats = Data(r, k, u)
         idx += 1
     gcc_stats = Data(r, k, u)
+
+    cargo_stats.csv("cargo_stats")
+    gcc_stats.csv("gcc_stats")
 
     return (cargo_stats, gcc_stats)
 
