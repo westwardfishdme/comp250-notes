@@ -50,9 +50,9 @@ GNU Public License 2.0.
 
 # Part 2: Process
 For this project I will be writing the paper in markdown and LaTeX, pandoc will also be used to convert it to LaTeX, 
-and the bibliography in Zotero. [All papers will be in this directory](./) and the source code will be inside [./src](./src).
-The program will be written in Rust 1.95 with cargo, a sample program written in C will also be provided and tested against the 
-generated Rust program using python 3.14. Other similar implementations will be tested in the same manner using the same valid
+and the bibliography in Zotero. [All relative information related to the paper will be in this directory](./notes) and source code that is benchmarked 
+will be inside [./src](./src). The program will be written in Rust 1.95 with cargo/rustc, and a sample program written in C will also be provided and 
+tested against the generated Rust program using python 3.14. Other similar implementations will be tested in the same manner using the same valid
 C program. Another C file containing undefined behavior will also be tested against with both my implementation and other
 implementations to both refine my program and to test comparative metrics.
 
