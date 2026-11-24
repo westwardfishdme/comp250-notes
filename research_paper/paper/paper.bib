@@ -1,0 +1,502 @@
+
+@misc{stoep_2025,
+	title = {Rust in {Android}: move fast and fix things},
+	shorttitle = {Rust in {Android}},
+	url = {https://blog.google/security/rust-in-android-move-fast-fix-things/},
+	abstract = {Last year, we wrote about why a memory safety strategy that
+	            focuses on vulnerability prevention in new code quickly yields
+	            durable and compounding gains. This year we lo…},
+	language = {en-us},
+	urldate = {2026-10-22},
+	journal = {Google},
+	author = {Stoep, Jeff Vander},
+	month = nov,
+	year = {2025},
+}
+
+@misc{darpatv_tractor_2024,
+	title = {{TRACTOR} {Proposers} {Day} {Presentations}},
+	url = {https://www.youtube.com/watch?v=p-ktEmoKo78},
+	urldate = {2026-10-22},
+	author = {{DARPA}},
+	month = aug,
+	year = {2024},
+}
+
+@misc{tractor,
+	title = {{TRACTOR}},
+	url = {https://www.darpa.mil/research/programs/translating-all-c-to-rust},
+	author = {DARPA},
+	urldate = {2026-10-22},
+	publisher = {DARPA},
+	year = {2024},
+	file = {TRACTOR |
+	        DARPA:/home/withoutdishonor/Zotero/storage/9M28YWUA/translating-all-c-to-rust.html:text/html
+	        },
+}
+
+@misc{mit_tractor,
+	title = {TRACTOR Benchmark for Evaluating C to Rust Translators},
+	author = {Hamed Okhravi and Brandt Ogden and Noah Luther and Ian McQuoid and
+	          Howard Mak and Nathan Burow},
+	year = {2026},
+	eprint = {2609.25121},
+	archivePrefix = {arXiv},
+	primaryClass = {cs.SE},
+	url = {https://arxiv.org/abs/2609.25121},
+}
+@article{hong_automatically_2025,
+	title = {Automatically {Translating} {C} to {Rust} – {Communications} of the {
+	         ACM}},
+	volume = {68},
+	url = {https://cacm.acm.org/research/automatically-translating-c-to-rust/},
+	doi = {10.1145/3737696},
+	language = {en-US},
+	number = {11},
+	urldate = {2026-10-22},
+	journal = {Communications of the ACM},
+	publisher = {ACM Digital Library},
+	author = {Hong, Jaemin and Ryu, Sukyoung},
+	month = oct,
+	year = {2025},
+	pages = {56--65},
+	file = {
+	        Snapshot:/home/withoutdishonor/Zotero/storage/5Z2I2RIB/automatically-translating-c-to-rust.html:text/html
+	        },
+}
+
+@misc{c2rust,
+	title = {c2rust: {Migrate} {C} code to {Rust}},
+	author = {immunant},
+	url = {https://github.com/immunant/c2rust/tree/master},
+	urldate = {2026-10-22},
+	file = {immunant/c2rust\: Migrate C code to
+	        Rust:/home/withoutdishonor/Zotero/storage/DQY6L8RE/master.html:text/html
+	        },
+}
+
+@book{rust_book,
+	edition = {3rd},
+	title = {The {Rust} {Programming} {Language}},
+	isbn = {978-1-7185-0444-8},
+	url = {https://doc.rust-lang.org/stable/book/},
+	urldate = {2026-10-22},
+	publisher = {No Starch Press},
+	author = {{Steve Klabnik} and {Carol Nichols} and {Chris Krycho}},
+	collaborator = {{Rust Community}},
+	month = apr,
+	year = {2026},
+	file = {The Rust Programming Language - The Rust Programming
+	        Language:/home/withoutdishonor/Zotero/storage/A7H98N5M/book.html:text/html;Validating
+	        References with Lifetimes - The Rust Programming
+	        Language:/home/withoutdishonor/Zotero/storage/QWHTSMUT/ch10-03-lifetime-syntax.html:text/html
+	        },
+}
+
+@misc{rust_reference,
+	title = {Rust {Reference} for 1.95},
+	url = {https://doc.rust-lang.org/1.95.0/reference/},
+	urldate = {2026-10-22},
+	file = {Introduction - The Rust
+	        Reference:/home/withoutdishonor/Zotero/storage/KXBRGMB7/reference.html:text/html
+	        },
+}
+
+@misc{yao_spec2rust_2026,
+	title = {{SpeC2Rust}: {Specification}-{Driven} {Repository}-{Level} {C}-to-{
+	         Rust} {Translation}},
+	shorttitle = {{SpeC2Rust}},
+	url = {http://arxiv.org/abs/2610.34141},
+	doi = {10.48550/arXiv.2610.34141},
+	abstract = {Legacy C codebases remain central to system software and
+	            performance-critical infrastructure, but their weak memory safety
+	            imposes security and maintenance risks. Recent C-to-Rust
+	            translation systems, including LLM-based translators, make
+	            automated migration increasingly feasible, yet they still struggle
+	            to recover repository-level intent, avoid raw pointers and unsafe
+	            constructs, maintain cross-file interfaces, and repair compilation
+	            and validation failures efficiently. We propose SpeC2Rust, a
+	            specification-driven pipeline for repository-level C-to-Rust
+	            translation. It has three stages: (1) Project-Intent Structuring,
+	            which decomposes a C repository into semantically coherent modules
+	            and generates persistent repository- and module-level
+	            specifications; (2) Spec-Guided Generation, which translates each
+	            Rust module against these specifications with a live symbol
+	            registry to preserve cross-file consistency; and (3)
+	            Layered-Feedback Repair, which batches repairs and injects only
+	            failure-relevant diagnostics, specification context, and source
+	            evidence for efficient compilation and test-driven correction. We
+	            evaluate SpeC2Rust on eight repository-level C projects. It
+	            generates Rust projects that compile and pass the original
+	            end-to-end tests, with no raw-pointer declarations, raw-pointer
+	            dereferences, or unsafe lines. On projects shared with an LLM-based
+	            baseline, SpeC2Rust reduces cost by 66.1\% and input-token usage by
+	            84.7\%.},
+	urldate = {2026-10-28},
+	publisher = {arXiv},
+	author = {Yao, Junjie and Guan, Xiongzheng and Feng, Jia and Chen, Yujia and
+	          Tian, Hongliang and Gao, Cuiyun},
+	month = oct,
+	year = {2026},
+	note = {arXiv:2610.34141 [cs.SE]},
+	keywords = {Computer Science - Software Engineering},
+	file = {Full Text PDF:/home/withoutdishonor/Zotero/storage/3B46JTAV/Yao et al.
+	        - 2026 - SpeC2Rust Specification-Driven Repository-Level C-to-Rust
+	        Translation.pdf:application/pdf;Snapshot:/home/withoutdishonor/Zotero/storage/DIAFTSM5/2610.html:text/html
+	        },
+}
+
+@misc{yao_spec2rust_2026-1,
+	title = {{SpeC2Rust}: {Specification}-{Driven} {Repository}-{Level} {C}-to-{
+	         Rust} {Translation}},
+	copyright = {arXiv.org perpetual, non-exclusive license},
+	shorttitle = {{SpeC2Rust}},
+	url = {https://arxiv.org/abs/2610.34141},
+	doi = {10.48550/ARXIV.2610.34141},
+	abstract = {Legacy C codebases remain central to system software and
+	            performance-critical infrastructure, while their weak memory-safety
+	            guarantees continue to impose substantial security and maintenance
+	            risks. Recent C-to-Rust translation systems, including translators
+	            based on large language models (LLMs), have made automated
+	            migration increasingly feasible. However, LLM-based translation
+	            still faces several challenges. Existing methods often preserve the
+	            original C skeleton, making it difficult to recover project intent
+	            and module functionalities at repository scale. The translated Rust
+	            code may still rely on raw pointers and unsafe constructs.
+	            Cross-file interfaces and dependency relations are also difficult
+	            to maintain consistently across generated Rust modules. Even when
+	            initial translation succeeds, the resulting project still requires
+	            costly compilation repair and end-to-end validation, while naively
+	            accumulated context during this process can degrade repair
+	            stability and efficiency.},
+	language = {en},
+	urldate = {2026-11-04},
+	publisher = {arXiv},
+	author = {Yao, Junjie and Guan, Xiongzheng and Feng, Jia and Chen, Yujia and
+	          Tian, Hongliang and Gao, Cuiyun},
+	month = oct,
+	year = {2026},
+	note = {Version Number: 1},
+	keywords = {FOS: Computer and information sciences, Software Engineering
+	            (cs.SE)},
+	file = {PDF:/home/withoutdishonor/Zotero/storage/794IVJJ6/Yao et al. - 2026 -
+	        SpeC2Rust Specification-Driven Repository-Level C-to-Rust
+	        Translation.pdf:application/pdf},
+}
+
+@misc{sirlanci_c2rust-bench_2025,
+	title = {{C2RUST}-{BENCH}: {A} {Minimized}, {Representative} {Dataset} for {C}
+	         -to-{Rust} {Transpilation} {Evaluation}},
+	shorttitle = {{C2RUST}-{BENCH}},
+	url = {http://arxiv.org/abs/2504.15144},
+	doi = {10.48550/arXiv.2504.15144},
+	abstract = {Despite the effort in vulnerability detection over the last two
+	            decades, memory safety vulnerabilities continue to be a critical
+	            problem. Recent reports suggest that the key solution is to migrate
+	            to memory-safe languages. To this end, C-to-Rust transpilation
+	            becomes popular to resolve memory-safety issues in C programs.
+	            Recent works propose C-to-Rust transpilation frameworks; however, a
+	            comprehensive evaluation dataset is missing. Although one solution
+	            is to put together a large enough dataset, this increases the
+	            analysis time in automated frameworks as well as in manual efforts
+	            for some cases. In this work, we build a method to select functions
+	            from a large set to construct a minimized yet representative
+	            dataset to evaluate the C-to-Rust transpilation. We propose
+	            C2RUST-BENCH that contains 2,905 functions, which are
+	            representative of C-to-Rust transpilation, selected from 15,503
+	            functions of real-world programs.},
+	urldate = {2026-11-04},
+	publisher = {arXiv},
+	author = {Sirlanci, Melih and Yagemann, Carter and Lin, Zhiqiang},
+	month = apr,
+	year = {2025},
+	note = {arXiv:2504.15144 [cs.CR]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science -
+	            Cryptography and Security, Computer Science - Programming Languages
+	            },
+	file = {Full Text PDF:/home/withoutdishonor/Zotero/storage/2H8CTT4L/Sirlanci
+	        et al. - 2025 - C2RUST-BENCH A Minimized, Representative Dataset for
+	        C-to-Rust Transpilation
+	        Evaluation.pdf:application/pdf;Snapshot:/home/withoutdishonor/Zotero/storage/8EXKHAKU/2504.html:text/html
+	        },
+}
+
+@article{hong_dont_2024,
+	title = {Don’t {Write}, but {Return}: {Replacing} {Output} {Parameters} with {
+	         Algebraic} {Data} {Types} in {C}-to-{Rust} {Translation}},
+	volume = {8},
+	shorttitle = {Don’t {Write}, but {Return}},
+	url = {https://dl.acm.org/doi/10.1145/3656406},
+	doi = {10.1145/3656406},
+	abstract = {Translating legacy system programs from C to Rust is a promising
+	            way to enhance their reliability. To alleviate the burden of manual
+	            translation, automatic C-to-Rust translation is desirable. However,
+	            existing translators fail to generate Rust code fully utilizing
+	            Rust’s language features, including algebraic data types. In this
+	            work, we focus on tuples and Option/Result types, an important
+	            subset of algebraic data types. They are used as functions’ return
+	            types to represent those returning multiple values and those that
+	            may fail. Due to the absence of these types, C programs use output
+	            parameters, i.e., pointer-type parameters for producing outputs, to
+	            implement such functions. As output parameters make code less
+	            readable and more error-prone, their use is discouraged in Rust. To
+	            address this problem, this paper presents a technique for removing
+	            output parameters during C-to-Rust translation. This involves three
+	            steps: (1) syntactically translating C code to Rust using an
+	            existing translator; (2) analyzing the Rust code to extract
+	            information related to output parameters; and (3) transforming the
+	            Rust code using the analysis result. The second step poses several
+	            challenges, including the identification and classification of
+	            output parameters. To overcome these challenges, we propose a
+	            static analysis based on abstract interpretation, complemented by
+	            the notion of abstract read/write sets, which approximate the sets
+	            of read/written pointers, and two sensitivities: write set
+	            sensitivity and nullity sensitivity. Our evaluation shows that the
+	            proposed technique is (1) scalable, with the analysis and
+	            transformation of 190k LOC within 213 seconds, (2) useful, with the
+	            detection of 1,670 output parameters across 55 real-world C
+	            programs, and (3) mostly correct, with 25 out of 26 programs
+	            passing their test suites after the transformation.},
+	number = {PLDI},
+	urldate = {2026-11-04},
+	journal = {Proc. ACM Program. Lang.},
+	author = {Hong, Jaemin and Ryu, Sukyoung},
+	month = jun,
+	year = {2024},
+	pages = {176:716--176:740},
+	file = {Full Text PDF:/home/withoutdishonor/Zotero/storage/CNJW9V33/Hong and
+	        Ryu - 2024 - Don’t Write, but Return Replacing Output Parameters with
+	        Algebraic Data Types in C-to-Rust Translat.pdf:application/pdf},
+}
+
+@article{lei_xia_empirical_2023,
+	title = {An {Empirical} {Study} of {C} to {Rust} {Transpilers}},
+	copyright = {Creative Commons Attribution 4.0 International, Open Access},
+	url = {https://zenodo.org/record/7871547},
+	doi = {10.5281/ZENODO.7871547},
+	abstract = {C to Rust transpilers, which automatically convert C programs into
+	            Rust programs, have become increasingly popular in migrating legacy
+	            C codebases to Rust to take advantage of Rust’s safety features.
+	            However, existing academic studies and industrial engineering
+	            practices mainly focus on optimizing the Rust code generated by C
+	            to Rust transpilers, assuming their trustworthiness and reliability
+	            , while neglecting the question of whether this assumption holds in
+	            practice.},
+	language = {en},
+	urldate = {2026-11-04},
+	publisher = {Zenodo},
+	author = {{Lei Xia} and {Baojiian Hua} and {Zhiyuan Peng}},
+	month = apr,
+	year = {2023},
+	file = {PDF:/home/withoutdishonor/Zotero/storage/CXRVD8NI/Lei Xia et al. -
+	        2023 - An Empirical Study of C to Rust Transpilers.pdf:application/pdf},
+}
+
+@misc{ndss_symposium_ndss_2025,
+	title = {{NDSS} 2025 - {Translating} {C} {To} {Rust}: {Lessons} from a {User}
+	         {Study}},
+	shorttitle = {{NDSS} 2025 - {Translating} {C} {To} {Rust}},
+	url = {https://www.youtube.com/watch?v=ElQs8rNjFzk},
+	abstract = {SESSION Session 13D: Software Security: Code and Compiler Network
+	            and Distributed System Security (NDSS) Symposium 2025, 24 February
+	            – 28 February 2025 in San Diego, California.},
+	urldate = {2026-11-04},
+	author = {{NDSS Symposium}},
+	collaborator = {{Prateek Saxena} and {Ruishi Li} and {Bo Wang} and {Ashish
+	                Kundu}},
+	month = may,
+	year = {2025},
+}
+
+@misc{lord_2023,
+	title = {The {Urgent} {Need} for {Memory} {Safety} in {Software} {Products} {
+	         \textbar} {CISA}},
+	url = {
+	       https://www.cisa.gov/news-events/news/urgent-need-memory-safety-software-products
+	       },
+	abstract = {Cybersecurity Technical Advisor Bob Lord stresses the importance
+	            of memory safety in making software safer by design.},
+	language = {en},
+	urldate = {2026-11-04},
+	author = {{Bob} {Lord}},
+	month = sep,
+	year = {2023},
+	file = {
+	        Snapshot:/home/withoutdishonor/Zotero/storage/JNUXVGKV/urgent-need-memory-safety-software-products.html:text/html
+	        },
+}
+
+@misc{raii,
+	title = {{RAII} - cppreference.com},
+	url = {https://en.cppreference.com/cpp/language/raii},
+	website = {cppreference},
+	urldate = {2026-11-17},
+	file = {RAII -
+	        cppreference.com:/home/withoutdishonor/Zotero/storage/XJS83P29/raii.html:text/html
+	        },
+}
+
+@misc{okhravi_tractor_2026,
+	title = {{TRACTOR} {Benchmark} for {Evaluating} {C} to {Rust} {Translators}},
+	url = {http://arxiv.org/abs/2609.25121},
+	doi = {10.48550/arXiv.2609.25121},
+	abstract = {Memory-safety vulnerabilities remain a persistent source of
+	            security risk in critical software, much of which is implemented in
+	            memory-unsafe languages such as C and C++. Recent advances in
+	            programming languages, program analysis, and artificial
+	            intelligence have created new opportunities to modernize these
+	            legacy systems through automated translation to memory-safe
+	            languages such as Rust. The DARPA Translating All C to Rust
+	            (TRACTOR) program seeks to develop scalable techniques for
+	            translating large C codebases into safe, performant, and
+	            maintainable Rust. MIT Lincoln Laboratory serves as the program's
+	            independent test and evaluation organization and has developed a
+	            standardized benchmark for systematically assessing C-to-Rust
+	            translation tools. This report describes the TRACTOR benchmark,
+	            including progressively challenging test batteries and larger
+	            milestone projects, as well as the supporting evaluation
+	            infrastructure and metrics for assessing correctness, safety,
+	            idiomaticity, and performance. The benchmark and associated
+	            evaluation infrastructure are publicly available to support the
+	            broader development and evaluation of C-to-Rust translation
+	            technologies.},
+	urldate = {2026-11-04},
+	publisher = {arXiv},
+	author = {Okhravi, Hamed and Ogden, Brandt and Luther, Noah and McQuoid, Ian
+	          and Mak, Howard and Burow, Nathan},
+	month = sep,
+	year = {2026},
+	note = {arXiv:2609.25121 [cs.SE]},
+	keywords = {Computer Science - Software Engineering, Computer Science -
+	            Cryptography and Security, Computer Science - Programming Languages
+	            },
+	file = {Full Text PDF:/home/withoutdishonor/Zotero/storage/2W53FIT8/Okhravi et
+	        al. - 2026 - TRACTOR Benchmark for Evaluating C to Rust
+	        Translators.pdf:application/pdf;Snapshot:/home/withoutdishonor/Zotero/storage/3TCU9NGH/2609.html:text/html
+	        },
+}
+
+@misc{c99_standard,
+	edition = {Second Edition},
+	title = {{ISO}/{IEC} 9899:1999},
+	shorttitle = {C99 {ISO} {Standard}},
+	url = {https://www.gwduan.com/web/computer/languages/c/c99.pdf},
+	urldate = {2026-11-04},
+	publisher = {American National Standards Institute},
+	month = dec,
+	date = {1999},
+	file = {PDF:/home/withoutdishonor/Zotero/storage/4QXGL7UI/1999 - ISOIEC
+	        98991999.pdf:application/pdf},
+}
+
+@misc{c_lifetimes,
+	title = {Lifetime - cppreference.com},
+	website = {cppreference},
+	url = {https://en.cppreference.com/c/language/lifetime},
+	urldate = {2026-11-17},
+}
+
+@misc{noauthor_cwe_nodate,
+	title = {{CWE} - {CWE}-193: {Off}-by-one {Error} (5.0)},
+	url = {https://cwe.mitre.org/data/definitions/193.html},
+	urldate = {2026-11-17},
+	file = {CWE - CWE-193\: Off-by-one Error
+	        (5.0):/home/withoutdishonor/Zotero/storage/UUDRZNQI/193.html:text/html},
+}
+
+@article{knuth_structured_1974,
+	title = {Structured {Programming} with go to {Statements}},
+	volume = {6},
+	issn = {0360-0300},
+	url = {https://dl.acm.org/doi/10.1145/356635.356640},
+	doi = {10.1145/356635.356640},
+	number = {4},
+	urldate = {2026-11-23},
+	journal = {ACM Comput. Surv.},
+	author = {Knuth, Donald E.},
+	month = dec,
+	year = {1974},
+	pages = {268},
+	file = {Full Text PDF:/home/withoutdishonor/Zotero/storage/LTHXNBNL/Knuth -
+	        1974 - Structured Programming with go to Statements.pdf:application/pdf
+	        },
+}
+
+@misc{rust_elevator,
+	title = {How {Rust} went from a side project to the world’s most-loved
+	         programming language},
+	url = {
+	       https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/
+	       },
+	abstract = {For decades, coders wrote critical systems in C and C++. Now they
+	            turn to Rust.},
+	language = {en},
+	urldate = {2026-11-24},
+	journal = {MIT Technology Review},
+	author = {Clive Thompson},
+	file = {
+	        Snapshot:/home/withoutdishonor/Zotero/storage/6LD6LNN3/rust-worlds-fastest-growing-programming-language.html:text/html
+	        },
+}
+
+@inproceedings{acm_klabnik_2016,
+	address = {New York, NY, USA},
+	series = {Applicative 2016},
+	title = {The {History} of {Rust}},
+	isbn = {978-1-4503-4464-7},
+	url = {https://doi.org/10.1145/2959689.2960081},
+	doi = {10.1145/2959689.2960081},
+	abstract = {The Rust programming language recently celebrated its one year
+	            anniversary since 1.0. While that's not a long time, there were
+	            eight years of development before that, which saw radical changes
+	            in the language. In this talk, Steve will show off some of Rust's
+	            history, with all of the decisions and changes that were made along
+	            the way.},
+	urldate = {2026-11-23},
+	booktitle = {Applicative 2016},
+	publisher = {Association for Computing Machinery},
+	author = {{Steve Klabnik}},
+	month = jun,
+	year = {2016},
+	note = {https://www.youtube.com/watch?v=79PSagCD\_AY},
+}
+
+@misc{association_for_computing_machinery_acm_history_2016,
+	title = {The {History} of {Rust}},
+	abstract = {Author: Steve Klabnik Abstract:},
+	urldate = {2026-11-24},
+	author = {{Association for Computing Machinery (ACM)}},
+	month = jun,
+	year = {2016},
+}
+
+@misc{noauthor_technology_nodate,
+	title = {Technology {\textbar} 2025 {Stack} {Overflow} {Developer} {Survey}},
+	url = {https://survey.stackoverflow.co/2025/technology},
+	language = {en},
+	urldate = {2026-11-24},
+	file = {
+	        Snapshot:/home/withoutdishonor/Zotero/storage/N4FJ8NG4/technology.html:text/html
+	        },
+}
+
+@misc{rust_github,
+	title = {rust-lang/rust},
+	copyright = {Apache-2.0},
+	url = {https://github.com/rust-lang/rust},
+	abstract = {Empowering everyone to build reliable and efficient software.},
+	urldate = {2026-11-24},
+	publisher = {The Rust Programming Language},
+	month = nov,
+	year = {2026},
+	note = {original-date: 2010-06-16T20:39:03Z},
+}
+
+@misc{rust_influences,
+	title = {Influences - {The} {Rust} {Reference}},
+	url = {https://doc.rust-lang.org/reference/influences.html},
+	urldate = {2026-11-24},
+	file = {Influences - The Rust
+	        Reference:/home/withoutdishonor/Zotero/storage/HS7BJ82P/influences.html:text/html
+	        },
+}
